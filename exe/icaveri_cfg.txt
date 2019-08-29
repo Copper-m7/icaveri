@@ -17,10 +17,10 @@ DD, C:\APP\iverilog\work
 # GW, test.gtkw          ... gtkw name.
 ###
 
-PJ, test
-WD, test
-VV, test.v  fc.v
-GW, test.gtkw
+PJ, sample_lfsr16
+WD, C:\APP\iverilog\samples
+VV, lfsr16.v
+GW, lfsr16.gtkw
 
 
 
