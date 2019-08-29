@@ -1,0 +1,59 @@
+##### icaveri config ####
+### exe file(folder)
+IV, C:\APP\iverilog
+# The below 3 file is must exist.
+# [IV]\bin\iverilog.exe , [IV]\bin\vvp.exe , [IV]\gtkwave\bin\gtkwave.exe
+### Editor
+EE, [Local]\Programs\Microsoft VS Code\bin\code.cmd
+#EE, C:\Program Files (x86)\sakura\sakura.exe
+### Default Dump format (vcd/fst/lxt/lxt2)
+DF, lxt2
+### Default WorkDir
+DD, C:\APP\iverilog\work
+### Project (Example)
+# PJ, test1_1            ... Project name. (for select)
+# WD, test1              ... Working dir.
+# VV, test1.v fc1.v      ... file list. (The last file is test-bench.)
+# GW, test.gtkw          ... gtkw name.
+###
+
+PJ, test
+WD, test
+VV, test.v  fc.v
+GW, test.gtkw
+
+
+
+
+
+
+
+
+
+
+###
+# RTL sample text for button[sample]. 'RTL' to 'END'
+RTL
+// Project : 
+// Module  : 
+//  Auther : 
+// Revision: 
+// 20xx-xx-xx : draft.
+
+module (
+   input  clk,
+   input  rb,
+   output 
+);
+
+reg  r;
+wire  f = ;
+always@(posedge clk or negedge rb)
+   if(!rb) r <= 1'b0;
+   else if(f) r <= 1'b1
+   else r <= r;
+
+endmodule
+
+END
+
