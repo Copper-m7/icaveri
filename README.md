@@ -11,6 +11,7 @@ For Verilog Circuit Designer.
 
 [ Function ]
 - Test-set is selectable.
-- 1 bottun to simulation.
+- 1 bottun to simulation & wave-viewer.
+- grep(simple)
 
 
