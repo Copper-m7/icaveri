@@ -11,21 +11,16 @@ DF, lxt2
 ### Default WorkDir
 DD, C:\APP\iverilog\work
 ### Project (Example)
-# PJ, test1_1            ... Project name. (for select)
-# WD, test1              ... Working dir.
-# VV, test1.v fc1.v      ... file list. (The last file is test-bench.)
-# GW, test.gtkw          ... gtkw name.
+# PJ, test1_1                  ... Project name. (for select)
+# WD, test1                    ... Working dir.
+# VV, test1.v reg.v test1_1.v  ... file list. (The last file is test-bench.)
+# GW, test1_1.gtkw             ... gtkw name.
 ###
 
 PJ, sample_lfsr16
 WD, C:\APP\iverilog\samples
 VV, lfsr16.v
 GW, lfsr16.gtkw
-
-
-
-
-
 
 
 
