@@ -12,7 +12,7 @@
 [ 実行環境の構築手順 ]
 - IcarusVerilog+GTKWave for Windowsの入手＆インストール  
   本家ページには無いので、http://bleyer.org/icarus/ からダウンロードすることになる  
-  ※64bit/32bitの２種類があるはず  
+  ※64bit/32bit(x86)の２種類があるはず  
   ※インストールの際のパス名に、半角スペースが入らない様に注意すること
   （つまり、「Program Files」や「Icarus Verilog」はダメです。オススメは、C:\APP\iverilog とか）
 - VisualStudio Code または Sakura-Editor の入手＆インストール  
@@ -21,9 +21,9 @@
   ※Sakuraも強調文字ライブラリを設定した方がいいでしょう
 - シミュレーション対象を置くフォルダ構成を考えて、作成準備  
   （例えば、C:\APP\iverilog\work\themeA とかが良い）
-- 本ランチャーソフトのファイルを配置  
-  icaveri/icaveri.exe , icaveri/icaveri_cfg.txt の２ファイルを、適当なフォルダに配置する（iverilogの近傍がいいでしょうね）  
-  icaveri.exe のショートカットを作るとか、スタートメニューに登録するとか．．．
+- 本ランチャーソフトのファイルを配置（コンパイル無しの場合）  
+  icaveri_bin/icaveri.exe , icaveri_bin/icaveri_cfg.txt の２ファイルを、適当なフォルダに配置する（iverilogの近傍がいいでしょうね）  
+  icaveri.exe のショートカットを作るとかは、適宜．．．
 - icaveri_cfg.txt をフォルダ構成に合わせて変更  
   （最低限、IV,EE 行だけでも、正しい設定にしてください）  
   （VS Code の人は、EEは変更不要。のはず）
