@@ -1,9 +1,9 @@
 # icaveri
-## Launcher software  for iverilog4win.
+## Launcher software  for 'icarus verilog for windows'.
 ---
-概要：Widows上で、IcarusVerilogでRTLシミュレーションするためのランチャーソフトです。
-コマンドプロンプトを使わないで、シミュレーションの実行、結果の確認、編集、のサイクルを手軽に廻すことを目的としています。（PATH編集、ubuntuやCygwinなどは不要）
-
+概要：Windows上で、IcarusVerilogでRTLシミュレーションするためのランチャーソフトです。
+コマンドプロンプトを使わないで、シミュレーションの実行、結果の確認、編集、のサイクルを手軽に廻すことを目的としています。（PATH編集、ubuntuやCygwinなどは不要）  
+![app_image](https://github.com/Copper-m7/www/blob/master/image/icaveri.png)  
 [ 動作に必要となる外部ソフトウェア ]
 - Icarus Verilog for Windows.（シミュレーションエンジン本体）
 - GTKWave for windows （Icarus Verilogに同梱されている）
@@ -39,7 +39,7 @@
 - Verilogファイルのポート記述から、呼び出し記述の表示機能
 - Verilogファイル内の、簡易grep機能（module限定機能）
 
-[ source ]
+[ 開発環境 ]
 - VisualStudio 2017 Express C# です  
 
 [ License ]
