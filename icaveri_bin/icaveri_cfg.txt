@@ -25,6 +25,12 @@ GW, lfsr16.gtkw
 
 
 
+### VV-Example
+#VV, -fvlist.txt  analog.v  sim_1.v                        ... File-list.
+#VV, -DSIM2  logic1.v logic2.v analog.v  sim_1.v           ... Def for['ifdef].
+#VV, -gspecify -Ttyp  Logic_post.v lib.v ana.v t1_post.v   ... Post-sim.
+###
+
 
 ###
 # RTL sample text for button[sample]. 'RTL' to 'END'
