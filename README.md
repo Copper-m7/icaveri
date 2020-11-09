@@ -8,11 +8,12 @@
 - Icarus Verilog for Windows.（シミュレーションエンジン本体）
 - GTKWave for windows （Icarus Verilogに同梱されている）
 - VisualStudio Code または Sakura-Editor（エディタとして使用を推奨）
+- シミュレーション対象となる、Verilogコード(RTL)＆テストベンチ
 
 [ 実行環境の構築手順 ]
 - IcarusVerilog+GTKWave for Windows の入手＆インストール  
-  Win用は、本家ページには無いので、http://bleyer.org/icarus/ からダウンロードすることになる  
-  ※64bit/32bit(x86)の２種類があるので、使用Winに合った方を。  
+  Windows用は、IcarusVerilog本家ページには無いので、http://bleyer.org/icarus/ からダウンロードする。 
+  ※64bit/32bit(x86)の２種類があるので、使用Win環境に合った方を。  
   2019年8月時点は、iverilog-v11-20190809-x64_setup.exe [17.0MB] が最新の様です。  
   ※インストールの際のパス名に、半角スペースが入らない様に注意すること
   （つまり、「Program Files」はダメ。オススメは、C:\APP\iverilog とか）
