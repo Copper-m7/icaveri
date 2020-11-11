@@ -2,7 +2,9 @@
 ## Launcher software  for 'Icarus Verilog for Windows'.
 ---
 概要：Windows上で、IcarusVerilogでRTLシミュレーションするためのランチャーソフトです。
-コマンドプロンプトを使わないで、シミュレーションの実行、結果の確認、編集、の開発サイクルを手軽に廻すことを目的としています。（面倒なコマンドライン起動、PATH設定変更、ubuntuやCygwin環境導入などは不要、Windowsのみで動作します。逆にLinux環境で本ソフトは使えません）  
+コマンドプロンプトを使わないで、シミュレーションの実行、結果の確認、編集、の開発サイクルを手軽に廻すことを目的としています。
+面倒なコマンドライン起動、PATH設定変更、ubuntuやCygwin環境導入などは不要です
+Windowsのみで動作します（64bit推奨）。逆にLinux環境では、本ソフトは使えません  
 ![app_image](https://github.com/Copper-m7/www/blob/master/image/icaveri.png)  
 [ 動作に必要となる外部ソフトウェア ]
 - Icarus Verilog for Windows.（シミュレーションエンジン本体）
